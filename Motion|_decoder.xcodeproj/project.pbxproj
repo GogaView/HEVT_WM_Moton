@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1B1AFD1EA3667800A345DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B1AFC1EA3667800A345DC /* main.cpp */; };
+		FA1B1B051EA3E55200A345DC /* MotionDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B1B031EA3E55200A345DC /* MotionDecoder.cpp */; };
+		FA1B1B081EA3F08600A345DC /* ConfigReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA1B1B061EA3F08600A345DC /* ConfigReader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA1B1AF71EA3667800A345DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA1B1AF91EA3667800A345DC /* Motion|_decoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Motion|_decoder"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1B1AFC1EA3667800A345DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA1B1B031EA3E55200A345DC /* MotionDecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MotionDecoder.cpp; sourceTree = "<group>"; };
+		FA1B1B041EA3E55200A345DC /* MotionDecoder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MotionDecoder.hpp; sourceTree = "<group>"; };
+		FA1B1B061EA3F08600A345DC /* ConfigReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConfigReader.cpp; sourceTree = "<group>"; };
+		FA1B1B071EA3F08600A345DC /* ConfigReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConfigReader.hpp; sourceTree = "<group>"; };
+		FA1B1B091EA3F63500A345DC /* print_matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = print_matrix.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1B1AF61EA3667800A345DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1B1AF01EA3667800A345DC = {
+			isa = PBXGroup;
+			children = (
+				FA1B1AFB1EA3667800A345DC /* Motion|_decoder */,
+				FA1B1AFA1EA3667800A345DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1B1AFA1EA3667800A345DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B1AF91EA3667800A345DC /* Motion|_decoder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1B1AFB1EA3667800A345DC /* Motion|_decoder */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B1AFC1EA3667800A345DC /* main.cpp */,
+				FA1B1B031EA3E55200A345DC /* MotionDecoder.cpp */,
+				FA1B1B041EA3E55200A345DC /* MotionDecoder.hpp */,
+				FA1B1B061EA3F08600A345DC /* ConfigReader.cpp */,
+				FA1B1B071EA3F08600A345DC /* ConfigReader.hpp */,
+				FA1B1B091EA3F63500A345DC /* print_matrix.h */,
+			);
+			path = "Motion|_decoder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1B1AF81EA3667800A345DC /* Motion|_decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1B1B001EA3667800A345DC /* Build configuration list for PBXNativeTarget "Motion|_decoder" */;
+			buildPhases = (
+				FA1B1AF51EA3667800A345DC /* Sources */,
+				FA1B1AF61EA3667800A345DC /* Frameworks */,
+				FA1B1AF71EA3667800A345DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Motion|_decoder";
+			productName = "Motion|_decoder";
+			productReference = FA1B1AF91EA3667800A345DC /* Motion|_decoder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1B1AF11EA3667800A345DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kosa;
+				TargetAttributes = {
+					FA1B1AF81EA3667800A345DC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FA1B1AF41EA3667800A345DC /* Build configuration list for PBXProject "Motion|_decoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA1B1AF01EA3667800A345DC;
+			productRefGroup = FA1B1AFA1EA3667800A345DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1B1AF81EA3667800A345DC /* Motion|_decoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1B1AF51EA3667800A345DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B1B051EA3E55200A345DC /* MotionDecoder.cpp in Sources */,
+				FA1B1AFD1EA3667800A345DC /* main.cpp in Sources */,
+				FA1B1B081EA3F08600A345DC /* ConfigReader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA1B1AFE1EA3667800A345DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA1B1AFF1EA3667800A345DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA1B1B011EA3667800A345DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA1B1B021EA3667800A345DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1B1AF41EA3667800A345DC /* Build configuration list for PBXProject "Motion|_decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1B1AFE1EA3667800A345DC /* Debug */,
+				FA1B1AFF1EA3667800A345DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1B1B001EA3667800A345DC /* Build configuration list for PBXNativeTarget "Motion|_decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1B1B011EA3667800A345DC /* Debug */,
+				FA1B1B021EA3667800A345DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1B1AF11EA3667800A345DC /* Project object */;
+}
